@@ -1,6 +1,6 @@
 {
   "name": "@cffnpwr/ts-results",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "description": "A typescript implementation of Rust's Result and Option objects.",
   "private": false,
   "type": "module",
