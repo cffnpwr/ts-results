@@ -1,6 +1,6 @@
 {
   "name": "@cffnpwr/ts-results",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "description": "A typescript implementation of Rust's Result and Option objects.",
   "private": false,
   "type": "module",
@@ -28,6 +28,8 @@
     "build": "pnpm run \"/^build:.*/\" && tsconfig-to-dual-package",
     "build:esm": "swc src -d dist -D",
     "build:cjs": "swc src -d dist/cjs -D --config-file .swcrc.cjs",
+    "build:esm-type": "tsc -p .",
+    "build:cjs-type": "tsc -p tsconfig.cjs.json",
     "clean": "rm -rf dist",
     "test": "jest",
     "format": "prettier . --write"
